@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Lenis smooth scroll (required styles) */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis:not(.lenis-autoToggle).lenis-stopped {
+  overflow: clip;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+:root {
+  --void: #0D1117;
+  --deep: #111827;
+  --surface: #1A2332;
+  --card: #243044;
+  --card-border: #2A3F5F;
+  --forest: #4A7C59;
+  --sage: #8BAF7C;
+  --green-glow: rgba(74, 124, 89, 0.15);
+  --ink: #F0EDE8;
+  --muted: #8A9BAE;
+  --faint: #4A5568;
+}
+
+html,
+body {
+  background-color: var(--void);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--forest);
+  color: #ffffff;
+}
+
+/* Hero typography helpers */
+.hero-title {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+  font-size: clamp(48px, 8vw, 120px);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  font-weight: 400;
+}
+
+.section-title {
+  font-family: var(--font-instrument-serif), Georgia, serif;
+  font-size: clamp(40px, 6vw, 84px);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  font-weight: 400;
+}
+
+.eyebrow {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--forest);
+}
+
+/* Reveal helper used by GSAP */
+.reveal {
+  opacity: 0;
+}
+
+/* Disable text selection on the canvas wrapper */
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Contact green nebula particle drift */
+@keyframes drift-0 { 0% { transform: translate(0, 0); } 100% { transform: translate(30px, -20px); } }
+@keyframes drift-1 { 0% { transform: translate(0, 0); } 100% { transform: translate(-25px, 15px); } }
+@keyframes drift-2 { 0% { transform: translate(0, 0); } 100% { transform: translate(20px, 25px); } }
+@keyframes drift-3 { 0% { transform: translate(0, 0); } 100% { transform: translate(-30px, -15px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
