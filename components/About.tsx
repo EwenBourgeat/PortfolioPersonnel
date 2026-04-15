@@ -237,7 +237,7 @@ export default function About() {
             À propos
           </span>
           <h2 ref={titleRef} className="section-title mt-5 text-ink">
-            Étudiant ingénieur, entrepreneur, obsédé par ce qui fonctionne en production.
+            Étudiant ingénieur, entrepreneur, avec des projets qui tournent en production.
           </h2>
           <p
             ref={bodyRef}
@@ -246,10 +246,11 @@ export default function About() {
             4ème année à CY Tech, spécialisation High Performance Data Analysis
             dès septembre 2026. J&apos;ai lancé une micro-entreprise
             d&apos;automatisation IA pour des PME, fait un échange universitaire
-            à l&apos;UQAC au Canada, et déployé plusieurs projets en production
-            — seul. Ce que je cherche&nbsp;: une alternance Data/IA où aller
-            vite, apprendre sur des vrais problèmes, et contribuer concrètement
-            dès le premier jour.
+            à l&apos;UQAC au Canada, et déployé plusieurs projets seul en
+            production. Ce que je cherche&nbsp;: une alternance Data/IA où
+            apprendre sur de vrais problèmes et contribuer concrètement dès le
+            premier jour — et des PME qui veulent automatiser leurs process sans
+            se prendre la tête.
           </p>
 
           {/* Stats */}

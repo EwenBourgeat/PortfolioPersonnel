@@ -47,7 +47,7 @@ const projects: Project[] = [
     tag: "Machine Learning",
     title: "PL Match Predictor",
     description:
-      "7 saisons de Premier League, ~2 600 matchs, trois modèles ML en compétition. J'ai construit le pipeline complet — feature engineering, entraînement, évaluation — et déployé une app Streamlit qui prédit les matchs de la saison en cours en temps réel. XGBoost gagne.",
+      "7 saisons de Premier League, ~2 600 matchs, trois modèles ML en compétition. Pipeline complet — feature engineering, entraînement, évaluation — et une app Streamlit qui prédit les matchs de la saison en cours en temps réel. XGBoost gagne.",
     stack: ["Python", "Pandas", "scikit-learn", "XGBoost", "Streamlit"],
     href: "https://github.com/EwenBourgeat",
     hrefLabel: "Voir sur GitHub",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     tag: "Automatisation IA",
     title: "Affiliation IA — calmhomespaces.com",
     description:
-      "Une machine à contenu autonome. 6 workflows n8n qui sélectionnent des produits, génèrent du contenu via Gemini, composent les visuels en Python et publient automatiquement sur Pinterest — sans intervention humaine. 10 000 impressions/mois en production. C'est mon premier projet entrepreneurial qui tourne 24h/24.",
+      "Une machine à contenu autonome. 6 workflows n8n qui sélectionnent des produits, génèrent du contenu via Gemini, composent les visuels en Python et publient automatiquement sur Pinterest — sans intervention humaine. 10 000 impressions/mois en production. Mon premier projet entrepreneurial qui tourne 24h/24.",
     stack: [
       "n8n",
       "Claude API",
@@ -74,7 +74,7 @@ const projects: Project[] = [
     tag: "Full-Stack",
     title: "Plateforme de gestion de formations — QRMG",
     description:
-      "Plateforme web de gestion de formations développée seul en 3 mois de stage — de zéro à la production. Auth, rôles, paiements Stripe, emails automatisés, espace admin complet. Déployée sur qrmgformations.fr. Première fois que je livrais un produit seul dans un contexte professionnel réel.",
+      "Plateforme web de gestion de formations développée seul en 3 mois de stage — de zéro à la production. Auth, rôles, paiements Stripe, emails automatisés, espace admin complet. Déployée sur qrmgformations.fr.",
     stack: [
       "React",
       "TypeScript",

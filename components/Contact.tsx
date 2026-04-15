@@ -210,10 +210,12 @@ export default function Contact() {
           ref={titleRef}
           className="contact-fade mt-6 font-serif text-[clamp(44px,7vw,96px)] leading-[0.96] tracking-[-0.025em] text-ink"
         >
-          Disponible en alternance Data/IA dès septembre 2026.
+          Disponible dès septembre 2026.
         </h2>
         <p className="contact-subtitle contact-fade mt-8 font-sans text-base text-muted md:text-lg">
-          CY Tech · HPDA · Toulouse / remote · ewen.bourgeat.tech@gmail.com
+          Alternance Data/IA · Missions freelance automatisation IA &amp; n8n pour PME
+          <br className="hidden sm:block" />
+          <span className="sm:ml-0"> Toulouse / remote · ewen.bourgeat.tech@gmail.com</span>
         </p>
 
         <div className="contact-fade mt-12 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">

@@ -5,7 +5,10 @@ export default function Footer() {
       style={{ background: "#0D1117" }}
     >
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
-        <p className="font-sans text-xs text-muted">© 2026 Ewen Bourgeat</p>
+        <div className="flex flex-col gap-1">
+          <p className="font-sans text-xs text-muted">© 2026 Ewen Bourgeat</p>
+          <p className="font-sans text-[10px] text-muted/50">Alternance Data/IA · sept. 2026 · Automatisation IA &amp; n8n pour TPE PME</p>
+        </div>
         <div className="flex items-center gap-5">
           <a
             href="https://www.linkedin.com/in/ewen-bourgeat"
