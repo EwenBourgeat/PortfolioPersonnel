@@ -133,9 +133,9 @@ export default function About() {
           });
         };
 
-        animateCounter(stat1Ref.current, 7);
-        animateCounter(stat2Ref.current, 2600, "~");
-        animateCounter(stat3Ref.current, 10000);
+        animateCounter(stat1Ref.current, 3);
+        animateCounter(stat2Ref.current, 3);
+        animateCounter(stat3Ref.current, 1);
 
         // Green underlines
         gsap.from(".stat-line", {
@@ -183,9 +183,9 @@ export default function About() {
             start: "top 80%",
           },
         });
-        if (stat1Ref.current) stat1Ref.current.textContent = "7";
-        if (stat2Ref.current) stat2Ref.current.textContent = "~2\u2009600";
-        if (stat3Ref.current) stat3Ref.current.textContent = "10\u2009000";
+        if (stat1Ref.current) stat1Ref.current.textContent = "3";
+        if (stat2Ref.current) stat2Ref.current.textContent = "3";
+        if (stat3Ref.current) stat3Ref.current.textContent = "1";
       });
     }, sectionRef);
 
@@ -266,9 +266,9 @@ export default function About() {
                 0
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Saisons de
+                Projets déployés
                 <br />
-                données PL
+                en production
               </div>
               <div className="stat-line absolute bottom-0 left-0 h-px w-full origin-left bg-forest" />
             </li>
@@ -280,9 +280,9 @@ export default function About() {
                 0
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Matchs
+                Modèles ML entraînés
                 <br />
-                analysés
+                et comparés
               </div>
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>
@@ -294,9 +294,9 @@ export default function About() {
                 0
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Impressions/mois
+                Micro-entreprise
                 <br />
-                automatisées
+                lancée
               </div>
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>
