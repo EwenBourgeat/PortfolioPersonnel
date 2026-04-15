@@ -175,7 +175,7 @@ export default function Contact() {
     <section
       id="contact"
       ref={sectionRef}
-      className="relative overflow-hidden px-6 py-32 md:px-10 md:py-48"
+      className="relative overflow-hidden px-6 py-16 sm:py-24 md:px-10 md:py-32 lg:py-48"
       style={{ background: "#111827" }}
     >
       {/* Green nebula particles */}
@@ -208,7 +208,7 @@ export default function Contact() {
         </span>
         <h2
           ref={titleRef}
-          className="contact-fade mt-6 font-serif text-[clamp(44px,7vw,96px)] leading-[0.96] tracking-[-0.025em] text-ink"
+          className="contact-fade mt-6 font-serif text-[clamp(32px,7vw,96px)] leading-[0.96] tracking-[-0.025em] text-ink"
         >
           Disponible dès septembre 2026.
         </h2>
@@ -222,7 +222,7 @@ export default function Contact() {
           {/* Primary CTA */}
           <a
             href="mailto:ewen.bourgeat.tech@gmail.com"
-            className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-7 py-3.5 font-sans text-sm font-medium text-white overflow-hidden"
+            className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-5 sm:px-7 py-3.5 font-sans text-sm font-medium text-white overflow-hidden"
             style={{ "--draw": "0" } as React.CSSProperties}
           >
             <span
@@ -238,7 +238,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/ewen-bourgeat"
             target="_blank"
             rel="noreferrer"
-            className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-7 py-3.5 font-sans text-sm font-medium text-forest overflow-hidden transition-colors hover:bg-forest hover:text-white"
+            className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-5 sm:px-7 py-3.5 font-sans text-sm font-medium text-forest overflow-hidden transition-colors hover:bg-forest hover:text-white"
             style={{ "--draw": "0" } as React.CSSProperties}
           >
             <span
@@ -251,7 +251,7 @@ export default function Contact() {
             href="https://github.com/EwenBourgeat"
             target="_blank"
             rel="noreferrer"
-            className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-7 py-3.5 font-sans text-sm font-medium text-forest overflow-hidden transition-colors hover:bg-forest hover:text-white"
+            className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-5 sm:px-7 py-3.5 font-sans text-sm font-medium text-forest overflow-hidden transition-colors hover:bg-forest hover:text-white"
             style={{ "--draw": "0" } as React.CSSProperties}
           >
             <span

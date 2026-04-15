@@ -164,7 +164,7 @@ export default function Navigation() {
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
             aria-expanded={open}
-            className={`relative z-[60] inline-flex h-10 w-10 items-center justify-center md:hidden ${
+            className={`relative z-[60] inline-flex h-11 w-11 items-center justify-center md:hidden ${
               open ? "text-ink" : scrolled ? "text-ink" : "text-white"
             }`}
           >
@@ -192,13 +192,13 @@ export default function Navigation() {
               : "pointer-events-none opacity-0"
           }`}
         >
-          <ul className="flex h-full flex-col items-center justify-center gap-8 px-8">
+          <ul className="flex h-full flex-col items-center justify-center gap-6 sm:gap-8 px-8">
             {links.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="font-serif text-4xl text-ink"
+                  className="font-serif text-3xl sm:text-4xl text-ink"
                 >
                   {link.label}
                 </a>

@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 sm:flex-row">
         <div className="flex flex-col gap-1">
           <p className="font-sans text-xs text-muted">© 2026 Ewen Bourgeat</p>
-          <p className="font-sans text-[10px] text-muted/50">Alternance Data/IA · sept. 2026 · Automatisation IA &amp; n8n pour TPE PME</p>
+          <p className="font-sans text-[10px] text-muted/50 max-w-xs sm:max-w-none">Alternance Data/IA · sept. 2026 · Automatisation IA &amp; n8n pour TPE PME</p>
         </div>
         <div className="flex items-center gap-5">
           <a
@@ -15,7 +15,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="text-muted transition-colors hover:text-forest"
+            className="-m-2 p-2 text-muted transition-colors hover:text-forest"
           >
             <svg
               width="16"
@@ -32,7 +32,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="text-muted transition-colors hover:text-forest"
+            className="-m-2 p-2 text-muted transition-colors hover:text-forest"
           >
             <svg
               width="16"

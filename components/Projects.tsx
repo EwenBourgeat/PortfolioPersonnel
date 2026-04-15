@@ -411,13 +411,13 @@ export default function Projects() {
           </h2>
         </div>
 
-        <div className="mt-20 space-y-28 md:space-y-40">
+        <div className="mt-12 sm:mt-16 lg:mt-20 space-y-12 sm:space-y-20 md:space-y-28 lg:space-y-40">
           {projects.map((p, i) => {
             const reverse = i % 2 === 1;
             return (
               <article
                 key={p.title}
-                className="project-card grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-16"
+                className="project-card grid grid-cols-1 items-center gap-6 sm:gap-10 lg:grid-cols-12 lg:gap-16"
               >
                 <div
                   className={`order-1 lg:col-span-7 ${
@@ -437,7 +437,7 @@ export default function Projects() {
                   <span className="project-tag inline-flex items-center rounded-full bg-forest/15 px-3 py-1 font-sans text-[11px] font-medium tracking-[0.12em] uppercase text-forest">
                     {p.tag}
                   </span>
-                  <h3 className="mt-5 font-serif text-3xl leading-[1.05] text-ink md:text-4xl">
+                  <h3 className="mt-5 font-serif text-2xl leading-[1.05] text-ink sm:text-3xl md:text-4xl">
                     {p.title}
                   </h3>
                   <p className="mt-5 font-sans text-[15px] leading-relaxed text-muted">

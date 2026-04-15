@@ -256,12 +256,12 @@ export default function About() {
           {/* Stats */}
           <ul
             ref={statsRef}
-            className="mt-10 grid grid-cols-3 gap-6 border-y border-card-border py-8"
+            className="mt-10 grid grid-cols-3 gap-3 sm:gap-6 border-y border-card-border py-8"
           >
             <li className="relative pb-3">
               <div
                 ref={stat1Ref}
-                className="font-serif text-3xl text-ink md:text-4xl"
+                className="font-serif text-xl sm:text-3xl md:text-4xl text-ink"
               >
                 0
               </div>
@@ -275,7 +275,7 @@ export default function About() {
             <li className="relative border-l border-card-border pl-6 pb-3">
               <div
                 ref={stat2Ref}
-                className="font-serif text-3xl text-ink md:text-4xl"
+                className="font-serif text-xl sm:text-3xl md:text-4xl text-ink"
               >
                 0
               </div>
@@ -287,7 +287,7 @@ export default function About() {
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>
             <li className="relative border-l border-card-border pl-6 pb-3">
-              <div className="flex items-baseline font-serif text-3xl text-ink md:text-4xl">
+              <div className="flex items-baseline font-serif text-xl sm:text-3xl md:text-4xl text-ink">
                 <span ref={stat3Ref}>0</span>
                 <span>+</span>
               </div>

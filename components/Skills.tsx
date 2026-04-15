@@ -258,7 +258,7 @@ export default function Skills() {
     <section
       id="skills"
       ref={sectionRef}
-      className="relative px-6 py-28 md:px-10 md:py-40"
+      className="relative px-6 py-16 sm:py-24 md:px-10 md:py-28 lg:py-40"
       style={{ background: "#111827" }}
     >
       <div className="mx-auto max-w-7xl">
@@ -275,7 +275,7 @@ export default function Skills() {
           </h2>
         </div>
 
-        <div className="mt-20 grid grid-cols-1 gap-16 lg:grid-cols-12 lg:gap-20">
+        <div className="mt-12 sm:mt-16 lg:mt-20 grid grid-cols-1 gap-10 sm:gap-14 lg:grid-cols-12 lg:gap-20">
           {/* Skills */}
           <div className="lg:col-span-7">
             <div className="space-y-10">
