@@ -110,8 +110,8 @@ const timeline: {
       "Architecture parallèle · IA & Applications · Compressive Sensing",
   },
   {
-    year: "Oct. 2026",
-    title: "Contrat de professionnalisation Data/IA",
+    year: "Sept. 2026",
+    title: "Alternance Data/IA",
     detail: "Disponible · Toulouse / remote",
     highlight: true,
   },
@@ -271,7 +271,7 @@ export default function Skills() {
             Compétences
           </span>
           <h2 ref={titleRef} className="section-title mt-5 text-ink">
-            Mon arsenal
+            Compétences
           </h2>
         </div>
 

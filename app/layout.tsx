@@ -12,14 +12,14 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Ewen Bourgeat — Ingénieur Data & IA",
+  title: "Ewen Bourgeat — Data, IA & Automatisation",
   description:
-    "Étudiant ingénieur CY Tech (HPDA), je construis des pipelines ML, des automatisations IA et des applications web. Disponible en contrat de professionnalisation Data/IA d'octobre 2026 à octobre 2027.",
+    "Étudiant ingénieur HPDA à CY Tech, entrepreneur et développeur de systèmes data/IA. Alternance disponible septembre 2026.",
   metadataBase: new URL("https://ewenbourgeat.com"),
   openGraph: {
-    title: "Ewen Bourgeat — Ingénieur Data & IA",
+    title: "Ewen Bourgeat — Data, IA & Automatisation",
     description:
-      "Pipelines ML, automatisations IA, applications web. Contrat de professionnalisation Data/IA — Oct. 2026.",
+      "Étudiant ingénieur HPDA à CY Tech, entrepreneur et développeur de systèmes data/IA. Alternance disponible septembre 2026.",
     type: "website",
     locale: "fr_FR",
   },

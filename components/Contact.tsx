@@ -210,11 +210,10 @@ export default function Contact() {
           ref={titleRef}
           className="contact-fade mt-6 font-serif text-[clamp(44px,7vw,96px)] leading-[0.96] tracking-[-0.025em] text-ink"
         >
-          Construisons quelque chose ensemble.
+          Disponible en alternance Data/IA dès septembre 2026.
         </h2>
         <p className="contact-subtitle contact-fade mt-8 font-sans text-base text-muted md:text-lg">
-          Contrat de professionnalisation Data/IA · Octobre 2026 · Toulouse et
-          remote
+          CY Tech · HPDA · Toulouse / remote · ewen.bourgeat.tech@gmail.com
         </p>
 
         <div className="contact-fade mt-12 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4">
@@ -229,7 +228,7 @@ export default function Contact() {
               style={borderStyle("0")}
             />
             <span className="cta-fill pointer-events-none absolute inset-0 rounded-[12px] bg-forest opacity-0" />
-            <span className="relative z-10">M&apos;envoyer un email</span>
+            <span className="relative z-10">Écrire à Ewen</span>
           </a>
 
           {/* Secondary CTAs */}

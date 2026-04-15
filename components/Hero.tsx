@@ -235,7 +235,10 @@ export default function Hero({ totalFrames }: HeroProps) {
             Ewen Bourgeat
           </h1>
           <p className="mt-6 text-white/90 text-sm sm:text-base md:text-lg font-sans tracking-[0.04em] drop-shadow-[0_2px_14px_rgba(0,0,0,0.65)]">
-            Ingénieur Data &amp; IA · Contrat de professionnalisation oct. 2026
+            Ingénieur Data &amp; IA · Automatisation · Entrepreneur
+          </p>
+          <p className="mt-2 text-white/65 text-xs sm:text-sm font-sans tracking-[0.06em] drop-shadow-[0_2px_14px_rgba(0,0,0,0.65)]">
+            Alternance disponible — septembre 2026
           </p>
         </div>
 

@@ -219,7 +219,7 @@ export default function About() {
           <div className="mt-6 flex flex-wrap gap-3">
             <span className="inline-flex items-center gap-2 rounded-full bg-forest px-4 py-2 font-sans text-xs text-white">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-white" />
-              Disponible oct. 2026
+              Disponible sept. 2026
             </span>
             <span className="inline-flex items-center rounded-full border border-forest/40 bg-surface px-4 py-2 font-sans text-xs text-forest">
               Toulouse, France
@@ -237,19 +237,19 @@ export default function About() {
             À propos
           </span>
           <h2 ref={titleRef} className="section-title mt-5 text-ink">
-            Ingénieur à la croisée de la data, de l&apos;IA et du terrain
+            Étudiant ingénieur, entrepreneur, obsédé par ce qui fonctionne en production.
           </h2>
           <p
             ref={bodyRef}
             className="mt-8 max-w-2xl font-sans text-[17px] leading-relaxed text-muted"
           >
-            Étudiant ingénieur en 4ème année à CY Tech, je me spécialise en
-            High Performance Data Analysis à partir de septembre 2026. Je
-            construis des systèmes qui transforment les données en décisions —
-            pipelines ML en production, automatisations IA multi-API,
-            applications web déployées. Mon objectif&nbsp;: rejoindre une équipe
-            ambitieuse en contrat de professionnalisation Data/IA d&apos;octobre
-            2026 à octobre 2027.
+            4ème année à CY Tech, spécialisation High Performance Data Analysis
+            dès septembre 2026. J&apos;ai lancé une micro-entreprise
+            d&apos;automatisation IA pour des PME, fait un échange universitaire
+            à l&apos;UQAC au Canada, et déployé plusieurs projets en production
+            — seul. Ce que je cherche&nbsp;: une alternance Data/IA où aller
+            vite, apprendre sur des vrais problèmes, et contribuer concrètement
+            dès le premier jour.
           </p>
 
           {/* Stats */}
@@ -265,9 +265,9 @@ export default function About() {
                 0
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Saisons
+                Saisons de
                 <br />
-                analysées
+                données PL
               </div>
               <div className="stat-line absolute bottom-0 left-0 h-px w-full origin-left bg-forest" />
             </li>
@@ -281,7 +281,7 @@ export default function About() {
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
                 Matchs
                 <br />
-                traités
+                analysés
               </div>
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>
@@ -293,9 +293,9 @@ export default function About() {
                 0
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Impressions
+                Impressions/mois
                 <br />
-                /mois
+                automatisées
               </div>
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>

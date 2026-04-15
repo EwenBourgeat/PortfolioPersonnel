@@ -47,7 +47,7 @@ const projects: Project[] = [
     tag: "Machine Learning",
     title: "PL Match Predictor",
     description:
-      "Pipeline ML sur 7 saisons de Premier League (~2 600 matchs). Feature engineering avancé — forme glissante, taux domicile/extérieur, head-to-head. Comparaison Régression Logistique / Random Forest / XGBoost avec matrices de confusion, courbes ROC et feature importance. App Streamlit déployée pour prédire les matchs de la saison 2025/26 en temps réel.",
+      "7 saisons de Premier League, ~2 600 matchs, trois modèles ML en compétition. J'ai construit le pipeline complet — feature engineering, entraînement, évaluation — et déployé une app Streamlit qui prédit les matchs de la saison en cours en temps réel. XGBoost gagne.",
     stack: ["Python", "Pandas", "scikit-learn", "XGBoost", "Streamlit"],
     href: "https://github.com/EwenBourgeat",
     hrefLabel: "Voir sur GitHub",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     tag: "Automatisation IA",
     title: "Affiliation IA — calmhomespaces.com",
     description:
-      "6 workflows n8n orchestrant sélection produit via Airtable, génération de contenu IA (Gemini API), composition visuelle Python/Pillow et publication automatique Pinterest API v5. Dashboard analytics avec scoring de performance et alertes Telegram. 10 000 impressions/mois en production.",
+      "Une machine à contenu autonome. 6 workflows n8n qui sélectionnent des produits, génèrent du contenu via Gemini, composent les visuels en Python et publient automatiquement sur Pinterest — sans intervention humaine. 10 000 impressions/mois en production. C'est mon premier projet entrepreneurial qui tourne 24h/24.",
     stack: [
       "n8n",
       "Claude API",
@@ -74,7 +74,7 @@ const projects: Project[] = [
     tag: "Full-Stack",
     title: "Plateforme de gestion de formations — QRMG",
     description:
-      "Développement solo d'une plateforme web complète de gestion de formations. Auth et gestion des rôles (Clerk), paiements multi-modes (Stripe), emails automatisés (Brevo), espace admin complet. Déployée en production sur qrmgformations.fr.",
+      "Plateforme web de gestion de formations développée seul en 3 mois de stage — de zéro à la production. Auth, rôles, paiements Stripe, emails automatisés, espace admin complet. Déployée sur qrmgformations.fr. Première fois que je livrais un produit seul dans un contexte professionnel réel.",
     stack: [
       "React",
       "TypeScript",
@@ -407,7 +407,7 @@ export default function Projects() {
             Projets
           </span>
           <h2 ref={titleRef} className="section-title mt-5 text-ink">
-            Ce que je construis
+            Projets
           </h2>
         </div>
 
