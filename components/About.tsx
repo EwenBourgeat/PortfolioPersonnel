@@ -134,8 +134,8 @@ export default function About() {
         };
 
         animateCounter(stat1Ref.current, 3);
-        animateCounter(stat2Ref.current, 3);
-        animateCounter(stat3Ref.current, 1);
+        animateCounter(stat2Ref.current, 10000);
+        animateCounter(stat3Ref.current, 2600);
 
         // Green underlines
         gsap.from(".stat-line", {
@@ -184,8 +184,8 @@ export default function About() {
           },
         });
         if (stat1Ref.current) stat1Ref.current.textContent = "3";
-        if (stat2Ref.current) stat2Ref.current.textContent = "3";
-        if (stat3Ref.current) stat3Ref.current.textContent = "1";
+        if (stat2Ref.current) stat2Ref.current.textContent = "10\u2009000";
+        if (stat3Ref.current) stat3Ref.current.textContent = "2\u2009600";
       });
     }, sectionRef);
 
@@ -280,23 +280,21 @@ export default function About() {
                 0
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Modèles ML entraînés
+                Impressions/mois
                 <br />
-                et comparés
+                automatisées
               </div>
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>
             <li className="relative border-l border-card-border pl-6 pb-3">
-              <div
-                ref={stat3Ref}
-                className="font-serif text-3xl text-ink md:text-4xl"
-              >
-                0
+              <div className="flex items-baseline font-serif text-3xl text-ink md:text-4xl">
+                <span ref={stat3Ref}>0</span>
+                <span>+</span>
               </div>
               <div className="stat-label mt-2 font-sans text-xs uppercase tracking-[0.14em] text-muted">
-                Micro-entreprise
+                Matchs de foot
                 <br />
-                lancée
+                modélisés
               </div>
               <div className="stat-line absolute bottom-0 left-6 right-0 h-px origin-left bg-forest" />
             </li>
