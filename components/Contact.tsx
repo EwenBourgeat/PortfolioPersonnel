@@ -213,7 +213,7 @@ export default function Contact() {
           Disponible dès septembre 2026.
         </h2>
         <p className="contact-subtitle contact-fade mt-8 font-sans text-base text-muted md:text-lg">
-          Alternance Data/IA · Missions freelance automatisation IA &amp; n8n pour PME
+          Alternance Data/IA · Missions freelance automatisation IA &amp; n8n pour TPE
           <br className="hidden sm:block" />
           <span className="sm:ml-0"> Toulouse / remote · ewen.bourgeat.tech@gmail.com</span>
         </p>
