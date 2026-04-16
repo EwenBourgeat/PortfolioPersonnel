@@ -282,23 +282,23 @@ function Visual({ kind }: { kind: Project["visual"] }) {
       />
       <text
         x="184"
-        y="270"
+        y="264"
         fontFamily="Instrument Serif, serif"
-        fontSize="22"
+        fontSize="20"
         fill="#F0EDE8"
       >
-        128
+        0 → PROD
       </text>
       <text
-        x="240"
-        y="270"
+        x="184"
+        y="279"
         fontFamily="Geist, sans-serif"
-        fontSize="10"
+        fontSize="9"
         fill="#F0EDE8"
-        opacity="0.6"
+        opacity="0.5"
         letterSpacing="2"
       >
-        STAGIAIRES ACTIFS
+        3 MOIS · DÉPLOYÉ SEUL
       </text>
     </svg>
   );
