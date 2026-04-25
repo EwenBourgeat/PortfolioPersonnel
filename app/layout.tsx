@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Instrument_Serif } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
+import { Analytics } from "@vercel/analytics/next";
 import SmoothScroll from "@/components/SmoothScroll";
 import "./globals.css";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
     <html lang="fr" className={`${instrumentSerif.variable} ${GeistSans.variable}`}>
       <body className="font-sans bg-void text-ink antialiased">
         <SmoothScroll>{children}</SmoothScroll>
+        <Analytics />
       </body>
     </html>
   );
