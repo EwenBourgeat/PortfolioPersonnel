@@ -24,9 +24,6 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
   },
-  icons: {
-    icon: "/photoprofile.jpeg",
-  },
   robots: { index: true, follow: true },
 };
 
