@@ -249,7 +249,7 @@ export default function About() {
             à l&apos;UQAC au Canada, et déployé plusieurs projets seul en
             production. Ce que je cherche&nbsp;: une alternance Data/IA où
             apprendre sur de vrais problèmes et contribuer concrètement dès le
-            premier jour — et des TPE qui veulent automatiser leurs process sans
+            premier jour, et des TPE qui veulent automatiser leurs process sans
             se prendre la tête.
           </p>
 

@@ -96,7 +96,7 @@ const timeline: {
   {
     year: "2022",
     title: "Entrée à CY Tech",
-    detail: "Génie Mathématique & Informatique — Pau",
+    detail: "Génie Mathématique & Informatique, Pau",
   },
   {
     year: "Hiver 2026",
