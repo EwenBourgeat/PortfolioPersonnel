@@ -11,7 +11,7 @@ export default function Footer() {
         </div>
         <div className="flex items-center gap-5">
           <a
-            href="https://www.linkedin.com/in/ewen-bourgeat"
+            href="https://www.linkedin.com/in/ewen-bourgeat-6b424a326/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"

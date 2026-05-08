@@ -235,7 +235,7 @@ export default function Contact() {
 
           {/* Secondary CTAs */}
           <a
-            href="https://www.linkedin.com/in/ewen-bourgeat"
+            href="https://www.linkedin.com/in/ewen-bourgeat-6b424a326/"
             target="_blank"
             rel="noreferrer"
             className="cta-btn relative inline-flex items-center justify-center rounded-[12px] px-5 sm:px-7 py-3.5 font-sans text-sm font-medium text-forest overflow-hidden transition-colors hover:bg-forest hover:text-white"

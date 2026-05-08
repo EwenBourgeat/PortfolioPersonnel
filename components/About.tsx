@@ -320,7 +320,7 @@ export default function About() {
               github.com/EwenBourgeat
             </a>
             <a
-              href="https://www.linkedin.com/in/ewen-bourgeat"
+              href="https://www.linkedin.com/in/ewen-bourgeat-6b424a326/"
               target="_blank"
               rel="noreferrer"
               className="group inline-flex items-center gap-2 font-sans text-sm text-ink transition-colors hover:text-forest"
