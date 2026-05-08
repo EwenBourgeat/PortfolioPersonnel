@@ -13,7 +13,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  title: "Ewen Bourgeat — Data, IA & Automatisation",
+  title: "Ewen Bourgeat",
   description:
     "Étudiant ingénieur HPDA à CY Tech, entrepreneur et développeur de systèmes data/IA. Alternance disponible septembre 2026. Missions freelance automatisation IA pour TPE.",
   metadataBase: new URL("https://ewenbourgeat.com"),
